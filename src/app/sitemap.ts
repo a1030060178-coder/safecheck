@@ -13,6 +13,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "personal-safety-app-guide",
     "emergency-preparedness-living-alone",
     "why-freelancers-need-dead-mans-switch",
+    "senior-safety-technology-guide-2026",
+    "solo-living-statistics-trends-2026",
+    "college-student-safety-essentials",
   ];
 
   return [
