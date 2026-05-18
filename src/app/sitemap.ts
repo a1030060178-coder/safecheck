@@ -9,6 +9,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "solo-travel-safety-checkin",
     "digital-nomad-safety-essentials",
     "remote-worker-mental-health-checkin",
+    "best-daily-check-in-apps-2026",
+    "personal-safety-app-guide",
+    "emergency-preparedness-living-alone",
   ];
 
   return [

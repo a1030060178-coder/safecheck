@@ -48,7 +48,28 @@ const posts = [
     title: "Remote Work Isolation: How a Daily Check-In Protects Mental Health",
     date: "2026-05-19",
     excerpt:
-      "23% of remote workers cite loneliness as their #1 struggle. A simple daily check-in routine can be a lifeline.",
+      "23% of remote workers cite loneliness as their #1 struggle. A daily check-in routine can be a lifeline.",
+  },
+  {
+    slug: "best-daily-check-in-apps-2026",
+    title: "Best Daily Check-In Apps 2026: Full Comparison Guide",
+    date: "2026-05-19",
+    excerpt:
+      "We tested SafeCheck, Snug Safety, CheckOnMe, and more. Here's the definitive ranking of safety check-in apps.",
+  },
+  {
+    slug: "personal-safety-app-guide",
+    title: "Personal Safety Apps: The Complete 2026 Guide",
+    date: "2026-05-19",
+    excerpt:
+      "Every category of personal safety app explained: check-ins, emergency SOS, location sharing, and home security.",
+  },
+  {
+    slug: "emergency-preparedness-living-alone",
+    title: "Emergency Preparedness for Solo Living: 30-Minute Setup",
+    date: "2026-05-19",
+    excerpt:
+      "A step-by-step guide to emergency preparedness when you live alone. Fire, medical, power outage — covered in 30 minutes.",
   },
 ];
 
