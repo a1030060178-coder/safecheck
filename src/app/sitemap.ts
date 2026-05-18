@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "best-daily-check-in-apps-2026",
     "personal-safety-app-guide",
     "emergency-preparedness-living-alone",
+    "why-freelancers-need-dead-mans-switch",
   ];
 
   return [

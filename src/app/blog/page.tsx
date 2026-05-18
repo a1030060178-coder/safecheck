@@ -69,7 +69,14 @@ const posts = [
     title: "Emergency Preparedness for Solo Living: 30-Minute Setup",
     date: "2026-05-19",
     excerpt:
-      "A step-by-step guide to emergency preparedness when you live alone. Fire, medical, power outage — covered in 30 minutes.",
+      "Fire, medical, power outage — a 30-minute emergency prep checklist for people who live alone.",
+  },
+  {
+    slug: "why-freelancers-need-dead-mans-switch",
+    title: "Why Every Freelancer Needs a Dead Man's Switch",
+    date: "2026-05-19",
+    excerpt:
+      "When you work alone and something happens, your clients won't know for days. Protect your business AND your life.",
   },
 ];
 
