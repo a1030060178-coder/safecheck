@@ -104,7 +104,14 @@ const posts = [
     title: "Lone Worker Safety Solutions: Complete 2026 Guide",
     date: "2026-05-19",
     excerpt:
-      "From free check-in apps to enterprise monitoring — every safety solution for lone workers, compared and ranked.",
+      "From free check-in apps to enterprise monitoring — every safety solution for lone workers.",
+  },
+  {
+    slug: "night-shift-worker-safety-checkin",
+    title: "Night Shift Worker Safety: Why Check-Ins Matter on Irregular Schedules",
+    date: "2026-05-19",
+    excerpt:
+      "20% of the workforce works nights. Flexible check-ins protect workers when the rest of the world is asleep.",
   },
   {
     slug: "night-shift-worker-safety-checkin",
