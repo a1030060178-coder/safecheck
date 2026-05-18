@@ -37,7 +37,7 @@ export default function PostPage() {
         <p>A dead phone means no maps, no rides, no emergency calls. Keep a small power bank in your backpack. Always.</p>
 
         <h2 className="text-xl font-semibold text-zinc-900 mt-8 mb-3">8. Trust Your Gut</h2>
-        <p>No app replaces intuition. If a situation feels wrong, leave. Don't override your instincts to be polite. Your safety > everyone else's comfort.</p>
+        <p>No app replaces intuition. If a situation feels wrong, leave. Don't override your instincts to be polite. Your safety &gt; everyone else's comfort.</p>
 
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mt-6 not-prose">
           <p className="font-semibold text-zinc-900 mb-2">Start with #1. Free. Your parents will sleep better.</p>
