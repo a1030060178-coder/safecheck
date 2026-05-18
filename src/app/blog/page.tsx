@@ -34,7 +34,21 @@ const posts = [
     title: "Solo Travel Safety: Why a Check-In System Matters More Than Insurance",
     date: "2026-05-19",
     excerpt:
-      "Travel insurance covers your luggage. A daily check-in covers YOU. How digital nomads stay safe anywhere in the world.",
+      "Travel insurance covers your luggage. A daily check-in covers YOU. How digital nomads stay safe anywhere.",
+  },
+  {
+    slug: "digital-nomad-safety-essentials",
+    title: "Digital Nomad Safety: 10 Non-Negotiable Tools for 2026",
+    date: "2026-05-19",
+    excerpt:
+      "Essential safety tools every digital nomad needs — from check-in systems to VPNs to emergency protocols.",
+  },
+  {
+    slug: "remote-worker-mental-health-checkin",
+    title: "Remote Work Isolation: How a Daily Check-In Protects Mental Health",
+    date: "2026-05-19",
+    excerpt:
+      "23% of remote workers cite loneliness as their #1 struggle. A simple daily check-in routine can be a lifeline.",
   },
 ];
 

@@ -7,6 +7,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "dead-mans-switch-modern-guide",
     "wellness-check-services-compared",
     "solo-travel-safety-checkin",
+    "digital-nomad-safety-essentials",
+    "remote-worker-mental-health-checkin",
   ];
 
   return [
