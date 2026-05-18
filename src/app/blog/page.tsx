@@ -111,7 +111,14 @@ const posts = [
     title: "Night Shift Worker Safety: Why Check-Ins Matter on Irregular Schedules",
     date: "2026-05-19",
     excerpt:
-      "20% of the workforce works nights. Flexible check-ins protect workers when the rest of the world is asleep.",
+      "20% of the workforce works nights. Flexible check-ins protect workers when everyone else is asleep.",
+  },
+  {
+    slug: "pet-owners-safety-checkin",
+    title: "Pet Owners Living Alone: Why Your Pet Can't Be Your Only Safety Net",
+    date: "2026-05-19",
+    excerpt:
+      "A dog can't dial 911. How a daily check-in protects both you AND your pet when you live alone.",
   },
   {
     slug: "night-shift-worker-safety-checkin",
