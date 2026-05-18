@@ -99,6 +99,13 @@ const posts = [
     excerpt:
       "First time away from home? These 8 free tools keep you safe on and off campus — starting with a daily check-in.",
   },
+  {
+    slug: "lone-worker-safety-solutions-2026",
+    title: "Lone Worker Safety Solutions: Complete 2026 Guide",
+    date: "2026-05-19",
+    excerpt:
+      "From free check-in apps to enterprise monitoring — every safety solution for lone workers, compared and ranked.",
+  },
 ];
 
 export default function BlogPage() {
