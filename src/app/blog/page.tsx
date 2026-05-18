@@ -106,6 +106,13 @@ const posts = [
     excerpt:
       "From free check-in apps to enterprise monitoring — every safety solution for lone workers, compared and ranked.",
   },
+  {
+    slug: "night-shift-worker-safety-checkin",
+    title: "Night Shift Worker Safety: Why Check-Ins Matter on Irregular Schedules",
+    date: "2026-05-19",
+    excerpt:
+      "20% of workers work non-standard hours. A flexible check-in adapts to ANY schedule — not just 9-to-5.",
+  },
 ];
 
 export default function BlogPage() {
