@@ -78,6 +78,27 @@ const posts = [
     excerpt:
       "When you work alone and something happens, your clients won't know for days. Protect your business AND your life.",
   },
+  {
+    slug: "senior-safety-technology-guide-2026",
+    title: "Senior Safety Technology: The Complete 2026 Guide",
+    date: "2026-05-19",
+    excerpt:
+      "From simple check-in apps to full smart homes — every safety tech option for aging in place, ranked by complexity.",
+  },
+  {
+    slug: "solo-living-statistics-trends-2026",
+    title: "Solo Living Statistics 2026: 125M+ and Growing",
+    date: "2026-05-19",
+    excerpt:
+      "The numbers behind the solo living boom. Demographics, risks, and what it means for personal safety technology.",
+  },
+  {
+    slug: "college-student-safety-essentials",
+    title: "College Student Safety: 8 Essential Tools for Campus Living",
+    date: "2026-05-19",
+    excerpt:
+      "First time away from home? These 8 free tools keep you safe on and off campus — starting with a daily check-in.",
+  },
 ];
 
 export default function BlogPage() {
