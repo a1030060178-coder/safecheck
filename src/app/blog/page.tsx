@@ -22,6 +22,20 @@ const posts = [
     excerpt:
       "From analog keyholders to AI-powered check-in apps, here's how safety check-ins have evolved and which one is right for you.",
   },
+  {
+    slug: "wellness-check-services-compared",
+    title: "Wellness Check Services Compared: Apps vs Human Calls (2026)",
+    date: "2026-05-19",
+    excerpt:
+      "Automated apps, professional calling services, or DIY? We compared every type of wellness check — here's which delivers the best value.",
+  },
+  {
+    slug: "solo-travel-safety-checkin",
+    title: "Solo Travel Safety: Why a Check-In System Matters More Than Insurance",
+    date: "2026-05-19",
+    excerpt:
+      "Travel insurance covers your luggage. A daily check-in covers YOU. How digital nomads stay safe anywhere in the world.",
+  },
 ];
 
 export default function BlogPage() {
