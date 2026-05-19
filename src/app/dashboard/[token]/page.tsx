@@ -1,6 +1,5 @@
 import { getSupabaseAdmin } from "@/lib/supabase";
 import { Shield, Clock, Users, Calendar, ArrowUp } from "lucide-react";
-import { UpgradeButton } from "@/components/UpgradeButton";
 
 export default async function DashboardPage({
   params,
@@ -104,7 +103,13 @@ export default async function DashboardPage({
             </div>
           </div>
           <div className="mt-4 max-w-[200px]">
-            <UpgradeButton email={user.email} />
+            <a
+              href="https://ko-fi.com/penn662500"
+              target="_blank"
+              className="block w-full bg-amber-400 text-zinc-900 rounded-lg py-3 font-semibold hover:bg-amber-300 transition text-center"
+            >
+              Support Pro — $5/mo
+            </a>
           </div>
         </div>
       )}

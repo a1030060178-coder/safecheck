@@ -199,10 +199,11 @@ export default function HomePage() {
                 </li>
               </ul>
               <a
-                href="#signup"
+                href="https://ko-fi.com/penn662500"
+                target="_blank"
                 className="mt-6 block w-full bg-amber-400 text-zinc-900 rounded-lg py-2.5 font-semibold hover:bg-amber-300 transition text-center"
               >
-                Start Free → Upgrade Later
+                Support on Ko-fi — $5/mo
               </a>
             </div>
           </div>

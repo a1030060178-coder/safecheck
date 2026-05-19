@@ -34,9 +34,9 @@ export default function PricingPage() {
             <li>✓ Activity history</li>
             <li>✓ Priority support</li>
           </ul>
-          <button className="w-full bg-amber-400 text-zinc-900 rounded-lg py-3 font-semibold hover:bg-amber-300 transition" disabled>
-            Coming Soon — Paddle Pending
-          </button>
+          <a href="https://ko-fi.com/penn662500" target="_blank" className="block w-full bg-amber-400 text-zinc-900 rounded-lg py-3 font-semibold hover:bg-amber-300 transition text-center">
+            Support on Ko-fi — $5/mo
+          </a>
         </div>
       </div>
     </div>
