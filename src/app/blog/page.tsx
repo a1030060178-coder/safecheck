@@ -121,11 +121,11 @@ const posts = [
       "A dog can't dial 911. How a daily check-in protects both you AND your pet when you live alone.",
   },
   {
-    slug: "night-shift-worker-safety-checkin",
-    title: "Night Shift Worker Safety: Why Check-Ins Matter on Irregular Schedules",
+    slug: "safety-gift-idea-elderly-parents",
+    title: "The Best Gift for Aging Parents: Peace of Mind (Not Another Sweater)",
     date: "2026-05-19",
     excerpt:
-      "20% of workers work non-standard hours. A flexible check-in adapts to ANY schedule — not just 9-to-5.",
+      "Skip the sweater. A daily safety check-in is the gift your aging parents actually need.",
   },
 ];
 
