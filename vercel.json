@@ -1,3 +1,8 @@
 {
-  "crons": []
+  "crons": [
+    {
+      "path": "/api/promote",
+      "schedule": "0 8 * * *"
+    }
+  ]
 }

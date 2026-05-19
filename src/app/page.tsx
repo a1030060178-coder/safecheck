@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Shield, Clock, Bell, ArrowRight, Check } from "lucide-react";
 import { toast } from "sonner";
+import { EmailCapture } from "@/components/EmailCapture";
 
 export default function HomePage() {
   const [step, setStep] = useState<"form" | "success">("form");
@@ -213,6 +214,7 @@ export default function HomePage() {
       <footer className="text-center py-8 text-sm text-zinc-400">
         SafeCheck &copy; 2026 &mdash; Because someone should know.
       </footer>
+      <EmailCapture />
     </div>
   );
 }
