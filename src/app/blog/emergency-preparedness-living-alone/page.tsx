@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Emergency Preparedness for Solo Living: A 30-Minute Setup Guide — SafeCheck",
+  title: "Emergency Preparedness for Solo Living: A 30-Minute Setup Guide — DailyPing",
   description: "Prepare for emergencies when you live alone. Fire, medical, natural disaster — a 30-minute checklist that could save your life.",
 };
 
@@ -31,11 +31,11 @@ export default function PostPage() {
         <p>Three days of water (1 gallon per day) and non-perishable food. Canned goods + manual can opener. Protein bars. This isn't prepper territory — it's basic insurance for power outages, storms, or being snowed in.</p>
 
         <h2 className="text-xl font-semibold text-zinc-900 mt-8 mb-3">Minute 25-30: Digital Safety Net</h2>
-        <p>Set up a daily check-in. SafeCheck sends you an email every day — one click confirms you're okay. If you miss it, your emergency contacts get alerted. It's the only item on this list that actively monitors your status rather than waiting to be used.</p>
+        <p>Set up a daily check-in. DailyPing sends you an email every day — one click confirms you're okay. If you miss it, your emergency contacts get alerted. It's the only item on this list that actively monitors your status rather than waiting to be used.</p>
 
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mt-6 not-prose">
           <p className="font-semibold text-zinc-900 mb-2">Last step: set up your automated check-in. 60 seconds.</p>
-          <Link href="/" className="inline-block bg-zinc-900 text-white rounded-lg px-6 py-3 font-medium hover:bg-zinc-800 transition">Set Up SafeCheck Free</Link>
+          <Link href="/" className="inline-block bg-zinc-900 text-white rounded-lg px-6 py-3 font-medium hover:bg-zinc-800 transition">Set Up DailyPing Free</Link>
         </div>
       </div>
     </article>

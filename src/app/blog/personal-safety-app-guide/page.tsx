@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Personal Safety Apps 2026: The Only Guide You Need — SafeCheck",
+  title: "Personal Safety Apps 2026: The Only Guide You Need — DailyPing",
   description: "The complete guide to personal safety apps: check-in services, emergency SOS, location sharing, and more. Protect yourself with the right digital tools.",
 };
 
@@ -16,7 +16,7 @@ export default function PostPage() {
         <p>Your phone can already call 911. But personal safety apps go further — they prevent emergencies, alert loved ones automatically, and provide a digital safety net that works 24/7. Here's every category worth knowing.</p>
 
         <h2 className="text-xl font-semibold text-zinc-900 mt-8 mb-3">Category 1: Daily Check-In Apps</h2>
-        <p>These apps verify you're alive and well every day. If you miss a check-in, they automatically alert your emergency contacts. Examples: SafeCheck (free, web-based), Snug Safety (iOS/Android). Best for: solo livers, elderly, digital nomads.</p>
+        <p>These apps verify you're alive and well every day. If you miss a check-in, they automatically alert your emergency contacts. Examples: DailyPing (free, web-based), Snug Safety (iOS/Android). Best for: solo livers, elderly, digital nomads.</p>
 
         <h2 className="text-xl font-semibold text-zinc-900 mt-8 mb-3">Category 2: Emergency SOS Apps</h2>
         <p>One-tap emergency activation. Hold a button, release it, and help is dispatched to your GPS location. Examples: Noonlight (free), bSafe (freemium). Best for: walking alone at night, rideshare safety, outdoor activities.</p>
@@ -35,7 +35,7 @@ export default function PostPage() {
 
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mt-6 not-prose">
           <p className="font-semibold text-zinc-900 mb-2">Start with a free daily check-in. The simplest safety habit there is.</p>
-          <Link href="/" className="inline-block bg-zinc-900 text-white rounded-lg px-6 py-3 font-medium hover:bg-zinc-800 transition">Set Up SafeCheck — Free</Link>
+          <Link href="/" className="inline-block bg-zinc-900 text-white rounded-lg px-6 py-3 font-medium hover:bg-zinc-800 transition">Set Up DailyPing — Free</Link>
         </div>
       </div>
     </article>

@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Solo Travel Safety: Why a Check-In System Matters More Than Insurance — SafeCheck",
+  title: "Solo Travel Safety: Why a Check-In System Matters More Than Insurance — DailyPing",
   description: "Travel insurance covers your stuff. A daily check-in covers YOU. How digital nomads and solo travelers stay safe anywhere in the world.",
 };
 

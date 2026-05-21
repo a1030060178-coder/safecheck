@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog — SafeCheck",
+  title: "Blog — DailyPing",
   description:
     "Tips and resources for safer solo living, wellness checks, and personal security.",
 };
@@ -55,7 +55,7 @@ const posts = [
     title: "Best Daily Check-In Apps 2026: Full Comparison Guide",
     date: "2026-05-19",
     excerpt:
-      "We tested SafeCheck, Snug Safety, CheckOnMe, and more. Here's the definitive ranking of safety check-in apps.",
+      "We tested DailyPing, Snug Safety, CheckOnMe, and more. Here's the definitive ranking of safety check-in apps.",
   },
   {
     slug: "personal-safety-app-guide",
@@ -132,7 +132,7 @@ const posts = [
 export default function BlogPage() {
   return (
     <div className="max-w-2xl mx-auto px-6 py-16">
-      <h1 className="text-4xl font-bold mb-3">SafeCheck Blog</h1>
+      <h1 className="text-4xl font-bold mb-3">DailyPing Blog</h1>
       <p className="text-zinc-500 mb-10">
         Safer solo living tips, wellness check guides, and personal security resources.
       </p>

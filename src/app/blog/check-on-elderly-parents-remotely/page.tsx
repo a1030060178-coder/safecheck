@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "How to Check on Elderly Parents Remotely Without Being Overbearing — SafeCheck",
+  title: "How to Check on Elderly Parents Remotely Without Being Overbearing — DailyPing",
   description: "Practical, respectful ways to monitor aging parents from afar. Digital check-in tools, smart home sensors, and communication strategies that preserve dignity.",
 };
 
@@ -19,7 +19,7 @@ export default function PostPage() {
         <p>Before installing any technology, have the talk. "Mom, I worry about you — not because I think you can't handle things, but because I love you. Can we set up a simple system so I don't worry as much?" Frame it as reducing YOUR anxiety, not managing HER life. It works better.</p>
 
         <h2 className="text-xl font-semibold text-zinc-900 mt-8 mb-3">2. Automated Check-Ins (The Gold Standard)</h2>
-        <p>A daily check-in app like SafeCheck sends an email every morning. She clicks once. That's it. If she misses it, you get notified. This is the least intrusive method — no cameras, no microphones, no "monitoring." Just a one-click confirmation that she's up and okay. Free for basic use.</p>
+        <p>A daily check-in app like DailyPing sends an email every morning. She clicks once. That's it. If she misses it, you get notified. This is the least intrusive method — no cameras, no microphones, no "monitoring." Just a one-click confirmation that she's up and okay. Free for basic use.</p>
 
         <h2 className="text-xl font-semibold text-zinc-900 mt-8 mb-3">3. Smart Home Sensors (Minimal Intrusion)</h2>
         <p>Motion sensors in common areas (living room, kitchen) can tell you if there's been activity today — without cameras. Refrigerator sensors can show if meals are being eaten. These work in the background. Your parent doesn't need to do anything.</p>
@@ -32,7 +32,7 @@ export default function PostPage() {
 
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mt-6 not-prose">
           <p className="font-semibold text-zinc-900 mb-2">Set up a free daily check-in for your parent. 60 seconds.</p>
-          <Link href="/" className="inline-block bg-zinc-900 text-white rounded-lg px-6 py-3 font-medium hover:bg-zinc-800 transition">Start SafeCheck Free</Link>
+          <Link href="/" className="inline-block bg-zinc-900 text-white rounded-lg px-6 py-3 font-medium hover:bg-zinc-800 transition">Start DailyPing Free</Link>
         </div>
       </div>
     </article>

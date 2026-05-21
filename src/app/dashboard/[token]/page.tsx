@@ -36,7 +36,7 @@ export default async function DashboardPage({
       <div className="flex items-center gap-3 mb-8">
         <Shield className="w-8 h-8 text-amber-500" />
         <div>
-          <h1 className="text-2xl font-bold">Your SafeCheck</h1>
+          <h1 className="text-2xl font-bold">Your DailyPing</h1>
           <p className="text-sm text-zinc-500">{user.email}</p>
         </div>
       </div>

@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Why Freelancers Need a Dead Man's Switch — SafeCheck",
+  title: "Why Freelancers Need a Dead Man's Switch — DailyPing",
   description: "Freelancers work alone. If something happens, clients don't know. A daily check-in protects your business AND your life.",
 };
 
@@ -28,7 +28,7 @@ export default function PostPage() {
 
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mt-6 not-prose">
           <p className="font-semibold text-zinc-900 mb-2">Protect your business and yourself. Free.</p>
-          <Link href="/" className="inline-block bg-zinc-900 text-white rounded-lg px-6 py-3 font-medium hover:bg-zinc-800 transition">Set Up SafeCheck</Link>
+          <Link href="/" className="inline-block bg-zinc-900 text-white rounded-lg px-6 py-3 font-medium hover:bg-zinc-800 transition">Set Up DailyPing</Link>
         </div>
       </div>
     </article>

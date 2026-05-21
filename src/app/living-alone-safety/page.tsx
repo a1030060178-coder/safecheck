@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Living Alone Safety Guide: 15 Essential Tips + Digital Tools (2026) — SafeCheck",
+  title: "Living Alone Safety Guide: 15 Essential Tips + Digital Tools (2026) — DailyPing",
   description: "Complete safety guide for solo livers. Physical security, digital tools, emergency preparedness, and the #1 habit that could save your life.",
 };
 
@@ -26,7 +26,7 @@ export default function LivingAlonePage() {
 
         <h2 className="text-xl font-semibold text-zinc-900 mt-8 mb-3">Digital Safety Nets</h2>
         <ol className="list-decimal pl-5 space-y-2" start={5}>
-          <li><strong>Daily check-in system.</strong> One click a day proves you're okay. SafeCheck emails you at your chosen time — click the link, done. Miss your window, your emergency contact gets alerted automatically.</li>
+          <li><strong>Daily check-in system.</strong> One click a day proves you're okay. DailyPing emails you at your chosen time — click the link, done. Miss your window, your emergency contact gets alerted automatically.</li>
           <li><strong>Location sharing.</strong> Share your real-time location with a trusted contact. Google Maps or Find My — pick one and turn it on permanently.</li>
           <li><strong>Emergency SOS setup.</strong> iPhone: press side button 5 times. Android: power button 3 times. Configure it now — not during an emergency.</li>
         </ol>

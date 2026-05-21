@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://safecheck-omega.vercel.app";
+  const baseUrl = "https://dailyping-app.vercel.app";
   const posts = [
     "why-solo-living-needs-daily-check-in",
     "dead-mans-switch-modern-guide",

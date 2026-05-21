@@ -14,7 +14,7 @@ export default function PrivacyPage() {
 
       <h2 className="text-xl font-semibold mt-8 mb-3">2. How We Use Your Data</h2>
       <p className="text-zinc-600 mb-4">
-        We use your data exclusively to provide the SafeCheck service — sending check-in
+        We use your data exclusively to provide the DailyPing service — sending check-in
         reminders, recording your check-ins, and alerting your emergency contacts when
         necessary. We never sell, rent, or share your data with third parties for
         marketing purposes.
@@ -29,15 +29,15 @@ export default function PrivacyPage() {
 
       <h2 className="text-xl font-semibold mt-8 mb-3">4. Cookies</h2>
       <p className="text-zinc-600 mb-4">
-        SafeCheck does not use tracking cookies. We do not run any analytics or
+        DailyPing does not use tracking cookies. We do not run any analytics or
         advertising scripts.
       </p>
 
       <h2 className="text-xl font-semibold mt-8 mb-3">5. Contact</h2>
       <p className="text-zinc-600">
         Privacy questions? Email{" "}
-        <a href="mailto:support@safec.one" className="text-amber-600 underline">
-          support@safec.one
+        <a href="mailto:support@dailyping.com" className="text-amber-600 underline">
+          support@dailyping.com
         </a>
       </p>
     </div>

@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Digital Nomad Safety: 10 Non-Negotiable Tools for 2026 — SafeCheck",
+  title: "Digital Nomad Safety: 10 Non-Negotiable Tools for 2026 — DailyPing",
   description: "Essential safety tools every digital nomad needs: from check-in systems to VPNs to emergency protocols. Stay safe anywhere in the world.",
 };
 
@@ -17,7 +17,7 @@ export default function PostPage() {
         <p>When your "office" changes every month and your support network is 5,000 miles away, you need a different safety toolkit than someone with a fixed address. Here are the 10 non-negotiable tools.</p>
 
         <h2 className="text-xl font-semibold text-zinc-900 mt-8 mb-3">1. Daily Check-In System</h2>
-        <p>If no one knows where you are, no one can help. A daily check-in app like SafeCheck creates an automated trail: one click proves you're okay. If the click doesn't come, your emergency contacts get notified. Free, automated, works anywhere with internet.</p>
+        <p>If no one knows where you are, no one can help. A daily check-in app like DailyPing creates an automated trail: one click proves you're okay. If the click doesn't come, your emergency contacts get notified. Free, automated, works anywhere with internet.</p>
 
         <h2 className="text-xl font-semibold text-zinc-900 mt-8 mb-3">2. VPN (Non-Negotiable)</h2>
         <p>Public WiFi in cafes, coworking spaces, and airports is a hacker's playground. A VPN encrypts everything. Mullvad or ProtonVPN — pay the $5/month.</p>
@@ -48,7 +48,7 @@ export default function PostPage() {
 
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mt-6 not-prose">
           <p className="font-semibold text-zinc-900 mb-2">Start with #1 — set up your free daily check-in.</p>
-          <Link href="/" className="inline-block bg-zinc-900 text-white rounded-lg px-6 py-3 font-medium hover:bg-zinc-800 transition">Set Up SafeCheck</Link>
+          <Link href="/" className="inline-block bg-zinc-900 text-white rounded-lg px-6 py-3 font-medium hover:bg-zinc-800 transition">Set Up DailyPing</Link>
         </div>
       </div>
     </article>

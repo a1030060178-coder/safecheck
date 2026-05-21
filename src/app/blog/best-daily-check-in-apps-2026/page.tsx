@@ -2,8 +2,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Best Daily Check-In Apps 2026: SafeCheck vs Snug Safety vs CheckOnMe — SafeCheck",
-  description: "Comparing the top daily check-in apps of 2026. SafeCheck, Snug Safety, CheckOnMe, and more. Find the best safety check-in app for solo living.",
+  title: "Best Daily Check-In Apps 2026: DailyPing vs Snug Safety vs CheckOnMe — DailyPing",
+  description: "Comparing the top daily check-in apps of 2026. DailyPing, Snug Safety, CheckOnMe, and more. Find the best safety check-in app for solo living.",
 };
 
 export default function PostPage() {
@@ -15,9 +15,9 @@ export default function PostPage() {
       <div className="prose prose-zinc max-w-none space-y-4 text-zinc-700 leading-relaxed">
         <p>Daily check-in apps have exploded in 2026. With 125M+ people living alone and an aging population choosing to age in place, the demand for simple, reliable safety check-ins has never been higher. We tested the top 5 options.</p>
 
-        <h2 className="text-xl font-semibold text-zinc-900 mt-8 mb-3">1. SafeCheck — Best Overall</h2>
+        <h2 className="text-xl font-semibold text-zinc-900 mt-8 mb-3">1. DailyPing — Best Overall</h2>
         <p><strong>Price:</strong> Free / $5/mo Pro | <strong>Platform:</strong> Web (any device)</p>
-        <p>SafeCheck is the newest entrant but offers the cleanest experience. Email-based check-ins mean no app to install. The free tier is genuinely useful (1 check-in/day, 1 contact). Pro adds SMS alerts and unlimited contacts for just $5/month. Open source on GitHub.</p>
+        <p>DailyPing is the newest entrant but offers the cleanest experience. Email-based check-ins mean no app to install. The free tier is genuinely useful (1 check-in/day, 1 contact). Pro adds SMS alerts and unlimited contacts for just $5/month. Open source on GitHub.</p>
         <p><strong>Best for:</strong> Solo livers who want a simple, affordable, cross-platform solution.</p>
 
         <h2 className="text-xl font-semibold text-zinc-900 mt-8 mb-3">2. Snug Safety — Best for SMS Users</h2>
@@ -41,11 +41,11 @@ export default function PostPage() {
         <p><strong>Best for:</strong> Budget-conscious users with very reliable friends.</p>
 
         <h2 className="text-xl font-semibold text-zinc-900 mt-8 mb-3">Bottom Line</h2>
-        <p>For most people, SafeCheck hits the sweet spot: free tier for basic protection, affordable Pro at $5/month, works on any device, open source, and global. Snug Safety is the best established alternative. Start with SafeCheck's free tier — you can always switch later.</p>
+        <p>For most people, DailyPing hits the sweet spot: free tier for basic protection, affordable Pro at $5/month, works on any device, open source, and global. Snug Safety is the best established alternative. Start with DailyPing's free tier — you can always switch later.</p>
 
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mt-6 not-prose">
           <p className="font-semibold text-zinc-900 mb-2">Compare yourself. Start free.</p>
-          <Link href="/" className="inline-block bg-zinc-900 text-white rounded-lg px-6 py-3 font-medium hover:bg-zinc-800 transition">Try SafeCheck Free</Link>
+          <Link href="/" className="inline-block bg-zinc-900 text-white rounded-lg px-6 py-3 font-medium hover:bg-zinc-800 transition">Try DailyPing Free</Link>
         </div>
       </div>
     </article>

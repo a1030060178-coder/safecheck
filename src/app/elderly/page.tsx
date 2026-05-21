@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Daily Check-In for Elderly Parents — SafeCheck",
+  title: "Daily Check-In for Elderly Parents — DailyPing",
   description: "Non-intrusive daily safety check-ins for aging parents living alone. They check in with one click. You get peace of mind. Free to start.",
 };
 
@@ -21,7 +21,7 @@ export default function ElderlyPage() {
         </p>
       </div>
 
-      <h2 className="text-2xl font-bold mb-4">How SafeCheck Helps</h2>
+      <h2 className="text-2xl font-bold mb-4">How DailyPing Helps</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">
         <div className="border border-zinc-200 rounded-xl p-5 text-center">
           <p className="text-3xl font-bold text-amber-500 mb-2">1</p>
@@ -42,7 +42,7 @@ export default function ElderlyPage() {
 
       <h2 className="text-2xl font-bold mb-4">How to Set It Up for a Parent</h2>
       <ol className="list-decimal pl-5 space-y-3 text-zinc-700 mb-10">
-        <li>Visit the SafeCheck signup page</li>
+        <li>Visit the DailyPing signup page</li>
         <li>Enter <strong>their email</strong> (or yours if they don't use email — you'll receive the alerts)</li>
         <li>Set a daily check-in time (morning works best)</li>
         <li>Add <strong>your email</strong> as the emergency contact</li>

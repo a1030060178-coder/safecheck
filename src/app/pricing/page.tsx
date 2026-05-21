@@ -2,8 +2,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Pricing — SafeCheck Daily Check-In Service",
-  description: "SafeCheck pricing: Free tier for basic protection, Pro at $5/month for unlimited. No hidden fees. Cancel anytime.",
+  title: "Pricing — DailyPing Daily Check-In Service",
+  description: "DailyPing pricing: Free tier for basic protection, Pro at $5/month for unlimited. No hidden fees. Cancel anytime.",
 };
 
 export default function PricingPage() {

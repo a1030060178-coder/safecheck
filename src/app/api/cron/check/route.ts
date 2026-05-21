@@ -71,7 +71,7 @@ export async function GET(request: Request) {
         if (contacts) {
           for (const contact of contacts) {
             await getResend().emails.send({
-              from: "SafeCheck Alerts <alerts@resend.dev>",
+              from: "DailyPing Alerts <alerts@resend.dev>",
               to: [contact.email],
               subject: `⚠️ ${user.email} missed their safety check-in`,
               html: `
@@ -81,7 +81,7 @@ export async function GET(request: Request) {
                   <p>Their grace period has now passed. Please try to reach them.</p>
                   <hr style="border:none;border-top:1px solid #e4e4e7;margin:24px 0;" />
                   <p style="color:#666;font-size:12px;">
-                    This is an automated alert from SafeCheck. If you believe this is a false alarm,
+                    This is an automated alert from DailyPing. If you believe this is a false alarm,
                     the user may have checked in late or there may be a system delay.
                   </p>
                 </div>
@@ -94,9 +94,9 @@ export async function GET(request: Request) {
         // Within grace period — send reminder to user
         const checkinUrl = getCheckinUrl(user.unique_token);
         await getResend().emails.send({
-          from: "SafeCheck <checkin@resend.dev>",
+          from: "DailyPing <checkin@resend.dev>",
           to: [user.email],
-          subject: "⏰ Reminder: Your SafeCheck is waiting",
+          subject: "⏰ Reminder: Your DailyPing is waiting",
           html: `
             <div style="font-family:sans-serif;max-width:480px;margin:0 auto;">
               <h2>⏰ Quick check-in reminder</h2>

@@ -212,7 +212,7 @@ export default function HomePage() {
       </section>
 
       <footer className="text-center py-8 text-sm text-zinc-400">
-        SafeCheck &copy; 2026 &mdash; Because someone should know.
+        DailyPing &copy; 2026 &mdash; Because someone should know.
       </footer>
       <EmailCapture />
     </div>

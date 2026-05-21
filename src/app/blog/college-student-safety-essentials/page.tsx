@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "College Student Safety: 8 Essential Tools for Campus Living — SafeCheck",
+  title: "College Student Safety: 8 Essential Tools for Campus Living — DailyPing",
   description: "Safety essentials every college student should have: from check-in apps to campus escort services. Stay safe without being paranoid.",
 };
 
@@ -16,7 +16,7 @@ export default function PostPage() {
         <p>First time living away from home? Whether you're in a dorm, off-campus apartment, or studying abroad, these 8 safety tools should be on every student's phone. Most are free.</p>
 
         <h2 className="text-xl font-semibold text-zinc-900 mt-8 mb-3">1. Daily Check-In (Free)</h2>
-        <p>A quick daily check-in tells your parents or roommate you're okay without a long conversation. SafeCheck sends you an email, you click once, done. If you miss it, they get notified. Especially important if you live alone off-campus.</p>
+        <p>A quick daily check-in tells your parents or roommate you're okay without a long conversation. DailyPing sends you an email, you click once, done. If you miss it, they get notified. Especially important if you live alone off-campus.</p>
 
         <h2 className="text-xl font-semibold text-zinc-900 mt-8 mb-3">2. Campus Safety App (Free)</h2>
         <p>Most universities have a safety app with emergency buttons, campus escort requests, and real-time alerts. Download it during orientation and actually open it once — know where the emergency button is before you need it.</p>
@@ -41,7 +41,7 @@ export default function PostPage() {
 
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mt-6 not-prose">
           <p className="font-semibold text-zinc-900 mb-2">Start with #1. Free. Your parents will sleep better.</p>
-          <Link href="/" className="inline-block bg-zinc-900 text-white rounded-lg px-6 py-3 font-medium hover:bg-zinc-800 transition">Set Up SafeCheck</Link>
+          <Link href="/" className="inline-block bg-zinc-900 text-white rounded-lg px-6 py-3 font-medium hover:bg-zinc-800 transition">Set Up DailyPing</Link>
         </div>
       </div>
     </article>

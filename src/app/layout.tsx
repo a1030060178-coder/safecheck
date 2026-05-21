@@ -15,11 +15,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SafeCheck — Never go unnoticed.",
+  title: "DailyPing — Never go unnoticed.",
   description:
     "A simple daily safety check-in. If you don't check in, we alert your emergency contacts.",
   openGraph: {
-    title: "SafeCheck — Daily Safety Check-in for Solo Living",
+    title: "DailyPing — Daily Safety Check-in for Solo Living",
     description:
       "One click a day keeps worry away. Free for basic protection.",
   },

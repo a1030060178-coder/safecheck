@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://safecheck-omega.vercel.app/sitemap.xml",
+    sitemap: "https://dailyping-app.vercel.app/sitemap.xml",
   };
 }

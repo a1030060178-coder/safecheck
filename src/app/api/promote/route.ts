@@ -6,7 +6,7 @@ export async function GET() {
   // 1. Ping Google sitemap
   try {
     const g = await fetch(
-      "https://www.google.com/ping?sitemap=https://safecheck-omega.vercel.app/sitemap.xml"
+      "https://www.google.com/ping?sitemap=https://dailyping-omega.vercel.app/sitemap.xml"
     );
     results.push(`Google: ${g.status}`);
   } catch (e) {
@@ -16,7 +16,7 @@ export async function GET() {
   // 2. Ping Bing sitemap
   try {
     const b = await fetch(
-      "https://www.bing.com/ping?sitemap=https://safecheck-omega.vercel.app/sitemap.xml"
+      "https://www.bing.com/ping?sitemap=https://dailyping-omega.vercel.app/sitemap.xml"
     );
     results.push(`Bing: ${b.status}`);
   } catch (e) {
@@ -29,14 +29,14 @@ export async function GET() {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        host: "safecheck-omega.vercel.app",
+        host: "dailyping-omega.vercel.app",
         key: "b0f1e2d3c4a5968778695a4b3c2d1e0f",
         urlList: [
-          "https://safecheck-omega.vercel.app/",
-          "https://safecheck-omega.vercel.app/blog",
-          "https://safecheck-omega.vercel.app/alternatives",
-          "https://safecheck-omega.vercel.app/pricing",
-          "https://safecheck-omega.vercel.app/elderly",
+          "https://dailyping-omega.vercel.app/",
+          "https://dailyping-omega.vercel.app/blog",
+          "https://dailyping-omega.vercel.app/alternatives",
+          "https://dailyping-omega.vercel.app/pricing",
+          "https://dailyping-omega.vercel.app/elderly",
         ],
       }),
     });
@@ -51,8 +51,8 @@ export async function GET() {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams({
-        title: "Show HN: SafeCheck — A digital dead man's switch for solo living",
-        url: "https://safecheck-omega.vercel.app",
+        title: "Show HN: DailyPing — A digital dead man's switch for solo living",
+        url: "https://dailyping-omega.vercel.app",
         text: "One click a day proves you're okay. If you miss it, we alert your emergency contacts. Free tier with Pro at $5/mo. Built for $0 over a weekend. Open source.",
       }).toString(),
     });

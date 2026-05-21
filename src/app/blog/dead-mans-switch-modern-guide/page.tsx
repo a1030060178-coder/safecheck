@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "The Modern Dead Man's Switch — SafeCheck",
+  title: "The Modern Dead Man's Switch — DailyPing",
   description:
     "From analog keyholders to AI-powered check-in apps, here's how safety check-ins have evolved and which one is right for your lifestyle.",
 };
@@ -40,7 +40,7 @@ export default function PostPage() {
         tied to business hours.</p>
 
         <h2 className="text-xl font-semibold text-zinc-900 mt-8 mb-3">Option 3: Automated Check-In Apps</h2>
-        <p>Apps like SafeCheck send you a daily email or push notification. You click once.
+        <p>Apps like DailyPing send you a daily email or push notification. You click once.
         If you don't respond within your grace period, your designated emergency contacts
         get alerted automatically. Pros: cheap (free or $5/month), reliable, non-intrusive.
         Cons: requires an internet connection.</p>
@@ -53,7 +53,7 @@ export default function PostPage() {
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mt-6">
           <p className="font-semibold text-zinc-900 mb-2">Set up your digital dead man's switch in 60 seconds.</p>
           <Link href="/" className="inline-block bg-zinc-900 text-white rounded-lg px-6 py-3 font-medium hover:bg-zinc-800 transition">
-            Start Free — SafeCheck
+            Start Free — DailyPing
           </Link>
         </div>
       </div>

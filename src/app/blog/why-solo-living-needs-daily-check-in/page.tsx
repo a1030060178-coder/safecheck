@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Why Everyone Living Alone Needs a Daily Check-In System — SafeCheck",
+  title: "Why Everyone Living Alone Needs a Daily Check-In System — DailyPing",
   description:
     "Over 125 million people live alone worldwide. A simple daily check-in could save your life. Learn how to set one up in 60 seconds.",
 };
@@ -62,7 +62,7 @@ export default function PostPage() {
 
         <h2 className="text-xl font-semibold text-zinc-900 mt-8 mb-3">Set Up Yours Today</h2>
         <p>
-          SafeCheck is free for basic protection. One daily check-in. One emergency contact.
+          DailyPing is free for basic protection. One daily check-in. One emergency contact.
           No credit card required. Set it up in 60 seconds.
         </p>
 
@@ -72,7 +72,7 @@ export default function PostPage() {
             href="/"
             className="inline-block bg-zinc-900 text-white rounded-lg px-6 py-3 font-medium hover:bg-zinc-800 transition"
           >
-            Set Up SafeCheck — Free
+            Set Up DailyPing — Free
           </Link>
         </div>
       </div>

@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Lone Worker Safety Solutions 2026: Complete Guide — SafeCheck",
+  title: "Lone Worker Safety Solutions 2026: Complete Guide — DailyPing",
   description: "Safety solutions for lone workers: from personal check-in apps to enterprise monitoring. Compliance, regulations, and best tools compared.",
 };
 
@@ -19,7 +19,7 @@ export default function PostPage() {
         <p>Anyone who works without direct supervision or colleagues nearby: real estate agents showing properties, home healthcare workers, utility technicians, delivery drivers, security guards, social workers, field service engineers, and remote/isolated workers of all kinds.</p>
 
         <h2 className="text-xl font-semibold text-zinc-900 mt-8 mb-3">Tier 1: Personal Check-In Apps (Free - $10/mo)</h2>
-        <p>For individual contractors and self-employed workers. A daily or per-session check-in app confirms safety at set intervals. SafeCheck (free), Ok Alone ($10/mo), and Snug Safety (free tier) all provide automated wellness verification. Best for: real estate agents, freelancers, consultants working alone.</p>
+        <p>For individual contractors and self-employed workers. A daily or per-session check-in app confirms safety at set intervals. DailyPing (free), Ok Alone ($10/mo), and Snug Safety (free tier) all provide automated wellness verification. Best for: real estate agents, freelancers, consultants working alone.</p>
 
         <h2 className="text-xl font-semibold text-zinc-900 mt-8 mb-3">Tier 2: Professional Monitoring ($10-30/worker/mo)</h2>
         <p>Includes GPS tracking, man-down detection, and 24/7 professional monitoring centers. Blackline Safety Loner Mobile, EcoOnline StaySafe, and WorkSafe Guardian are leaders. Best for: organizations with compliance requirements and medium-risk lone workers.</p>
@@ -35,7 +35,7 @@ export default function PostPage() {
 
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mt-6 not-prose">
           <p className="font-semibold text-zinc-900 mb-2">Lone worker? Start with a free daily check-in.</p>
-          <Link href="/" className="inline-block bg-zinc-900 text-white rounded-lg px-6 py-3 font-medium hover:bg-zinc-800 transition">Set Up SafeCheck</Link>
+          <Link href="/" className="inline-block bg-zinc-900 text-white rounded-lg px-6 py-3 font-medium hover:bg-zinc-800 transition">Set Up DailyPing</Link>
         </div>
       </div>
     </article>

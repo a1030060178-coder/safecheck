@@ -6,15 +6,15 @@ export default function RefundPage() {
 
       <h2 className="text-xl font-semibold mt-8 mb-3">7-Day Money-Back Guarantee</h2>
       <p className="text-zinc-600 mb-4">
-        If you're not satisfied with SafeCheck Pro for any reason, contact us within
+        If you're not satisfied with DailyPing Pro for any reason, contact us within
         7 days of your purchase and we will issue a full refund. No questions asked.
       </p>
 
       <h2 className="text-xl font-semibold mt-8 mb-3">How to Request a Refund</h2>
       <p className="text-zinc-600 mb-4">
         Email{" "}
-        <a href="mailto:support@safec.one" className="text-amber-600 underline">
-          support@safec.one
+        <a href="mailto:support@dailyping.com" className="text-amber-600 underline">
+          support@dailyping.com
         </a>{" "}
         with the email address associated with your account. We process refunds within
         48 hours.

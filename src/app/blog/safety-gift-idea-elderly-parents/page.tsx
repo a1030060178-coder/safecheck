@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "The Best Gift for Aging Parents: Peace of Mind (Not Another Sweater) — SafeCheck",
+  title: "The Best Gift for Aging Parents: Peace of Mind (Not Another Sweater) — DailyPing",
   description: "Skip the sweater this year. A daily safety check-in is the gift your aging parents actually need — and it's free to set up.",
 };
 
@@ -24,7 +24,7 @@ export default function Page() {
 
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mt-6 not-prose">
           <p className="font-semibold text-zinc-900 mb-2">Set it up for someone you love. Free. 60 seconds.</p>
-          <Link href="/" className="inline-block bg-zinc-900 text-white rounded-lg px-6 py-3 font-medium hover:bg-zinc-800 transition">Set Up SafeCheck</Link>
+          <Link href="/" className="inline-block bg-zinc-900 text-white rounded-lg px-6 py-3 font-medium hover:bg-zinc-800 transition">Set Up DailyPing</Link>
         </div>
       </div>
     </article>

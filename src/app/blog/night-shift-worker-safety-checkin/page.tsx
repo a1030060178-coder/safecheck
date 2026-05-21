@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Night Shift Worker Safety: Why Check-Ins Matter on Irregular Schedules — SafeCheck",
+  title: "Night Shift Worker Safety: Why Check-Ins Matter on Irregular Schedules — DailyPing",
   description: "Night shift workers face unique safety risks. Irregular hours, isolation, and disrupted routines. A flexible check-in system helps.",
 };
 
@@ -22,11 +22,11 @@ export default function Page() {
         <p>A digital check-in works on YOUR schedule — not a 9-to-5 one. Set your check-in time to when your shift starts or ends. If you don't confirm within the grace period, your designated contact gets alerted. A night shift worker finishing at 3 AM can set their check-in for 3:15 AM — and their daytime contact will get the alert when they wake up.</p>
 
         <h2 className="text-xl font-semibold text-zinc-900 mt-8 mb-3">Simple Setup</h2>
-        <p>SafeCheck adapts to any schedule. Set your time. Add a contact who understands your shift pattern. That's it. One click when you're done for the night — or when you wake up — proves you made it through.</p>
+        <p>DailyPing adapts to any schedule. Set your time. Add a contact who understands your shift pattern. That's it. One click when you're done for the night — or when you wake up — proves you made it through.</p>
 
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mt-6 not-prose">
           <p className="font-semibold text-zinc-900 mb-2">Set your check-in to YOUR schedule. Free.</p>
-          <Link href="/" className="inline-block bg-zinc-900 text-white rounded-lg px-6 py-3 font-medium hover:bg-zinc-800 transition">Set Up SafeCheck</Link>
+          <Link href="/" className="inline-block bg-zinc-900 text-white rounded-lg px-6 py-3 font-medium hover:bg-zinc-800 transition">Set Up DailyPing</Link>
         </div>
       </div>
     </article>

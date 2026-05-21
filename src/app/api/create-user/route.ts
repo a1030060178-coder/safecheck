@@ -51,12 +51,12 @@ export async function POST(request: Request) {
     const dashboardUrl = `${process.env.NEXT_PUBLIC_APP_URL}/dashboard/${token}`;
 
     await getResend().emails.send({
-      from: "SafeCheck <noreply@resend.dev>",
+      from: "DailyPing <noreply@resend.dev>",
       to: [email],
-      subject: "Your SafeCheck is ready — bookmark this link",
+      subject: "Your DailyPing is ready — bookmark this link",
       html: `
         <div style="font-family:sans-serif;max-width:480px;margin:0 auto;">
-          <h2>🛡️ Your SafeCheck is live</h2>
+          <h2>🛡️ Your DailyPing is live</h2>
           <p>You're now protected. Here's what you need to know:</p>
           <p><strong>Your daily check-in link (BOOKMARK THIS):</strong></p>
           <p>

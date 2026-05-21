@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Remote Work Isolation: How a Daily Check-In Protects Mental Health — SafeCheck",
+  title: "Remote Work Isolation: How a Daily Check-In Protects Mental Health — DailyPing",
   description: "Remote workers face unique mental health risks from isolation. A simple daily check-in routine can be a lifeline. Here's the research and how to start.",
 };
 
@@ -37,7 +37,7 @@ export default function PostPage() {
 
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mt-6 not-prose">
           <p className="font-semibold text-zinc-900 mb-2">Start your daily check-in routine. Free. No commitment.</p>
-          <Link href="/" className="inline-block bg-zinc-900 text-white rounded-lg px-6 py-3 font-medium hover:bg-zinc-800 transition">Set Up SafeCheck</Link>
+          <Link href="/" className="inline-block bg-zinc-900 text-white rounded-lg px-6 py-3 font-medium hover:bg-zinc-800 transition">Set Up DailyPing</Link>
         </div>
       </div>
     </article>

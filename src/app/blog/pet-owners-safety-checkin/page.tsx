@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Pet Owners Living Alone: Why Your Pet Can't Be Your Only Safety Net — SafeCheck",
+  title: "Pet Owners Living Alone: Why Your Pet Can't Be Your Only Safety Net — DailyPing",
   description: "Pets provide comfort but they can't call for help. Why solo pet owners need a human backup system — and how to set one up in 60 seconds.",
 };
 
@@ -26,7 +26,7 @@ export default function Page() {
 
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mt-6 not-prose">
           <p className="font-semibold text-zinc-900 mb-2">Protect yourself AND your pet. Free setup.</p>
-          <Link href="/" className="inline-block bg-zinc-900 text-white rounded-lg px-6 py-3 font-medium hover:bg-zinc-800 transition">Set Up SafeCheck</Link>
+          <Link href="/" className="inline-block bg-zinc-900 text-white rounded-lg px-6 py-3 font-medium hover:bg-zinc-800 transition">Set Up DailyPing</Link>
         </div>
       </div>
     </article>

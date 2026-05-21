@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Best Safety Devices for Elderly Living Alone 2026 — SafeCheck",
+  title: "Best Safety Devices for Elderly Living Alone 2026 — DailyPing",
   description: "The best safety devices for seniors aging in place: from check-in apps to fall detectors to smart home sensors. Complete buying guide.",
 };
 
@@ -16,7 +16,7 @@ export default function PostPage() {
         <p>90% of seniors want to age in place — staying in their own homes rather than moving to assisted living. The right safety devices make that possible. Here's what to get, in priority order, for every budget.</p>
 
         <h2 className="text-xl font-semibold text-zinc-900 mt-8 mb-3">Tier 1: Free Essentials</h2>
-        <p><strong>Daily Check-In App.</strong> SafeCheck (free) or Snug Safety (free tier). One-click daily confirmation. If missed, emergency contacts get notified. The single highest-impact safety measure for zero cost. Set it up for them once, bookmark the link, done.</p>
+        <p><strong>Daily Check-In App.</strong> DailyPing (free) or Snug Safety (free tier). One-click daily confirmation. If missed, emergency contacts get notified. The single highest-impact safety measure for zero cost. Set it up for them once, bookmark the link, done.</p>
         <p><strong>ICE Contacts.</strong> Add to their phone lock screen. Free. Takes 30 seconds. Paramedics check for it.</p>
 
         <h2 className="text-xl font-semibold text-zinc-900 mt-8 mb-3">Tier 2: Under $50</h2>
@@ -36,7 +36,7 @@ export default function PostPage() {
 
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mt-6 not-prose">
           <p className="font-semibold text-zinc-900 mb-2">Start with the free essential. Set up in 60 seconds.</p>
-          <Link href="/" className="inline-block bg-zinc-900 text-white rounded-lg px-6 py-3 font-medium hover:bg-zinc-800 transition">Set Up SafeCheck — Free</Link>
+          <Link href="/" className="inline-block bg-zinc-900 text-white rounded-lg px-6 py-3 font-medium hover:bg-zinc-800 transition">Set Up DailyPing — Free</Link>
         </div>
       </div>
     </article>

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 };
 
 const tools = [
-  { name: "SafeCheck", desc: "Daily safety check-in for solo living. One click proves you're okay.", url: "https://safecheck-omega.vercel.app", price: "Free / $5 Pro", icon: "🛡️" },
+  { name: "DailyPing", desc: "Daily safety check-in for solo living. One click proves you're okay.", url: "https://dailyping-omega.vercel.app", price: "Free / $5 Pro", icon: "🛡️" },
   { name: "ADHD Flow", desc: "Focus timer built for neurodivergent minds. Body doubling mode.", url: "https://focustimer-flame.vercel.app", price: "Free / $4 Pro", icon: "🧠" },
   { name: "AI CSV Cleaner", desc: "Clean CSV files in your browser. AI scans for data issues automatically.", url: "https://csvcleaner-pi.vercel.app", price: "Free", icon: "📊" },
   { name: "PropWatch", desc: "Track when clients open your proposals. Section-by-section analytics.", url: "https://proposaltracker.vercel.app", price: "Free / $15 Pro", icon: "👁️" },
